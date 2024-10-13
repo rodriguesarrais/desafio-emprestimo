@@ -1,0 +1,43 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django stuff:
+*.mo
+*.py[cod]
+*.sqlite3
+
+# If your build process includes running collectstatic, you probably don't need or want to include staticfiles/
+# in your Git repository. Update and uncomment the following line accordingly.
+# <django-project-name>/staticfiles/
+
+# If your build process includes running collectstatic, you probably don't need or want to include static/
+# in your Git repository. Update and uncomment the following line accordingly.
+# <django-project-name>/static/
+
+# If your build process includes running collectstatic, you probably don't need or want to include media/
+# in your Git repository. Update and uncomment the following line accordingly.
+# <django-project-name>/media/
+
+# Ignore the following:
+*.swp
+*~
+.idea/
+.vscode/
+.project
+.pydevproject
+.DS_Store
+Thumbs.db
+migrations/
